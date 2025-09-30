@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Avenue Dental</title>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-tooth"></i> 2nd Avenue Dental </a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="aboutus.html">about us</a>
+        <a href="services.html">services</a>
+        <a href="contact.html">contact us</a>
+    </nav>
+
+    <a href="request.html" class="btn"> request appointment </a>
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<!-- home -->
+
+<section class="home" id="home">
+
+    <div class="slideshow-container">
+
+        <!-- Full images with numbers and message Info -->
+        <div class="Containers">
+            <div class="MessageInfo">1 / 4</div>
+            <img src="home/child-8117667_1280.jpg" style="width:100%" alt="">
+        </div>
+
+        <div class="Containers">
+            <div class="MessageInfo">2 / 4</div>
+            <img src="home/pexels-beyza-kaplan-13264697.jpg" style="width:100%" alt="">
+        </div>
+
+        <div class="Containers">
+            <div class="MessageInfo">3 / 4</div>
+            <img src="home/pexels-karolina-grabowska-6627563.jpg" style="width:100%" alt="">
+        </div>
+
+        <div class="Containers">
+            <div class="MessageInfo">4 / 4</div>
+            <img src="home/dental-2450766_1280.jpg" style="width:100%" alt="">
+        </div>
+
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The circles/dots -->
+    <div style="text-align:center">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+        <span class="dots" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script>
+        var slidePosition = 1;
+        SlideShow(slidePosition);
+    </script>
+
+    <div class="content">
+        <p> Dental Clinic</p>
+        <h3 class="highlight-container"><span class="highlight">Lorem ipsum dolor sit amet consectetur, adipisicing elit</span></h3>
+        <a href="request.html" class="btn">request appointment</a>
+    </div>
+
+
+</section>
+
+
+<!-- about us section-->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="home/pexels-lu-rodriguez-17225957.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat, libero at tristique
+                interdum, libero lacus malesuada libero, nec congue nisl nunc auctor tortor. Vivamus vitae lorem urna.
+                Fusce justo arcu, tempus vitae scelerisque eu, blandit ut ipsum. Nam dignissim non ligula id laoreet.
+                Curabitur at erat tempor sem convallis faucibus. Duis auctor congue tincidunt. Donec non imperdiet diam.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat, libero at tristique interdum,
+                libero lacus malesuada libero, nec congue nisl nunc auctor tortor. Vivamus vitae lorem urna. Fusce
+                justo arcu, tempus vitae scelerisque eu, blandit ut ipsum.
+            </p>
+
+            <a href="aboutus.html#team" class="btn">meet the team</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- services -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our services</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="home/tooth-7843476_1280.webp" alt="">
+            <h3>Dental Cleaning</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis in excepturi.</p>
+        </div>
+
+        <div class="box">
+            <img src="home/tooth-7843509_1280.webp" alt="">
+            <h3>Teeth Whitening</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis in excepturi.</p>
+        </div>
+
+        <div class="box">
+            <img src="home/tooth-decay-7843500_1280.webp" alt="">
+            <h3>Dental Filling</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis in excepturi.</p>
+        </div>
+
+    </div>
+
+    <a href="services.html" class="btn">more services here!</a>
+
+</section>
+
+<!-- contact -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">contact us</h1>
+
+    <form action="">
+
+        <span>your name :</span>
+        <div class="inputBox">
+            <input type="text" placeholder="first name">
+            <input type="text" placeholder="last name">
+        </div>
+
+        <span>your email :</span>
+        <input type="email" placeholder="email" class="box">
+
+        <span>your number :</span>
+        <input type="tel" placeholder="enter your number" class="box">
+
+        <span>message :</span>
+        <textarea class="box message-box" placeholder="type your message here"></textarea>
+
+        <input type="submit" value="submit" class="btn">
+
+        <script src="script.js"></script>
+
+    </form>
+</section>
+
+
+<!-- footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box map-box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19597.508625981234!2d-106.67524085577494!3d52.12179487045192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5304f6b646ba59cf%3A0xc0d23dc01c7f2bc9!2sCampus%20Dentist!5e0!3m2!1sen!2sca!4v1700279817477!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="box">
+            <h3>office hours</h3>
+            <p>Monday   9:00 am - 5:00 pm <br>
+                Tuesday   9:00 am - 5:00 pm <br>
+                Wednesday    11:00 am - 7:00 pm <br>
+                Thursday    11:00 am - 7:00 pm <br>
+                Friday    9:00 am - 5:00 pm <br>
+                Saturday    closed <br>
+                Sunday    closed <br>
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>call or email us!</h3>
+            <p>+1 (306) 437 - 3636</p>
+            <p>office@secondavedental.com</p>
+        </div>
+
+
+    </div>
+
+    <div class="credit">created by <span>elaine ;p</span></div>
+
+</section>
+
+
+
+</body>
+</html>
