@@ -1,6 +1,12 @@
+
 # 2nd Ave Dental
 
 A clean and complete front-end prototype of a website for a fictional dentist called "2nd Avenue Dental". Made for the CMPT281: Website Design and Development course in 2023.
 
 # Design Process
 Wireframes were made using Balsamiq. To see more of the design process open the other file and you'll find research.pdf (as well as the wireframe files)
+
+
+
+
+
