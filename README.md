@@ -3,13 +3,13 @@
 
 A clean and complete front-end prototype of a website for a fictional dentist called "2nd Avenue Dental". Made for the CMPT281: Website Design and Development course in 2023.
 
+![alt text](https://github.com/ela7ne/2nd-ave-dental/blob/master/images/d4.png "sc 4")
+
 ![alt text](https://github.com/ela7ne/2nd-ave-dental/blob/master/images/d1.png "sc 1")
 
 ![alt text](https://github.com/ela7ne/2nd-ave-dental/blob/master/images/d2.png "sc 2")
 
 ![alt text](https://github.com/ela7ne/2nd-ave-dental/blob/master/images/d3.png "sc 3")
-
-![alt text](https://github.com/ela7ne/2nd-ave-dental/blob/master/images/d4.png "sc 4")
 
 # Design Process
 Wireframes were made using Balsamiq. To see more of the design process open the other file and you'll find research.pdf (as well as the rest of the wireframe files)
